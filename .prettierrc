@@ -1,0 +1,39 @@
+{
+  "printWidth": 120,
+  "tabWidth": 2,
+  "semi": false,
+  "singleQuote": true,
+  "endOfLine": "auto",
+  "overrides": [
+    {
+      "files": "*.js",
+      "options": {
+        "tabWidth": 2,
+        "endOfLine": "auto"
+      }
+    },
+    {
+      "files": "*.vue",
+      "options": {
+        "parser": "vue",
+        "endOfLine": "auto"
+      }
+    },
+    {
+      "files": "*.ts",
+      "options": {
+        "parser": "typescript",
+        "tabWidth": 2,
+        "singleQuote": true,
+        "semi": false,
+        "endOfLine": "auto"
+      }
+    },
+    {
+      "files": "*.svg",
+      "options": {
+        "parser": "html"
+      }
+    }
+  ]
+}
